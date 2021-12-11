@@ -1,0 +1,33 @@
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.form form label {
+  margin-bottom: 10px;
+}
+.form form input {
+  margin-bottom: 10px;
+}
+.form form button {
+  margin-top: 10px;
+}
+.form form label span {
+  color: #ff0000;
+}
+.form h2 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 100%;
+  }
+}
