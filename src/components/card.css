@@ -1,6 +1,6 @@
 .card {
   width: 335px;
-  height: 400px;
+  height: 395px;
   font-size: 14px;
   margin: 25px 5px 5px 5px;
   /* margin-top: 10px; */
@@ -32,5 +32,11 @@
 a {
   text-decoration: none;
   color: #000;
+  cursor: pointer;
+}
+.card-action button {
+  background-color: #fafafa;
+  border: none;
+  padding: 5px;
   cursor: pointer;
 }

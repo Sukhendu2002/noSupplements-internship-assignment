@@ -63,7 +63,7 @@ function Card(prop) {
           </p>
         </div>
         <div className="card-action">
-          <a>
+          <button>
             {like ? (
               <HeartFilled
                 onClick={() => setLike(!like)}
@@ -81,15 +81,15 @@ function Card(prop) {
                 }}
               />
             )}
-          </a>
-          <a onClick={() => setOpenPopup(!openPopup)}>
+          </button>
+          <button onClick={() => setOpenPopup(!openPopup)}>
             <EditTwoTone
               style={{
                 fontSize: "20px",
               }}
             />
-          </a>
-          <a
+          </button>
+          <button
             onClick={() => {
               prop.deleteCard(prop.item.id);
             }}
@@ -99,7 +99,7 @@ function Card(prop) {
                 fontSize: "20px",
               }}
             />
-          </a>
+          </button>
         </div>
       </div>
       <Popup

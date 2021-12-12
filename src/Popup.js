@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 
 function Popup(props) {
-  const { name, email, phone, website, children } = props;
+  const { children } = props;
   return (
     <Dialog open={props.openPopup} maxWidth="md">
       <DialogTitle>
